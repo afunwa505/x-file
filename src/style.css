@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body{
+    width: 100%;
+    color: #fefefe;
+    background-color: #282c34;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: #fefefe;
+    text-decoration: none;
+}
+a:hover{
+    color: #fd961a;
+}
+.nav{
+    width: 100%;
+    height: 90px;
+    color: #fefefe;
+    background-color: #282c34;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav1{
+    width: 70%;
+    margin: 0 0 0 50px;
+}
+.nav1 ul{
+    display: flex;
+}
+.nav1 ul li{
+    list-style: none;
+    margin: 30px 70px 0 0;
+}
+.nav2{
+    width: 25%;
+}
+.nav2 ul{
+    display: flex;
+}
+.nav2 ul li{
+    list-style: none;
+    margin: 0 20px 0 0;
+}
+.span1, .span2{
+    width: 40%;
+    height: 40px;
+    padding: 7px 0 0 35px;
+    border: 1px solid #fd961a;
+    border-radius: 7px;
+    margin: 20px 20px 0 0;   
+}
+.wrapper{
+    width: 100%;
+    height: 300px;
+    background: url('./img/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 7% 0 0 0;
+}
+.img{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    background: #fefefe;
+}
+.img1{
+    width: 30%;
+    height: 400px;
+    background: url('./img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin: 20px 0 0 0;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.img2{
+    width: 30%;
+    height: 400px;
+    background: url('./img/img4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin: 20px 0 0 0;
+    box-shadow: 10px 10px 10px #000000;
+}
+.img3{
+    width: 30%;
+    height: 400px;
+    background: url('./img/img3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin: 20px 0 0 0;
+    box-shadow: 10px 10px 10px #000000;
+}
+.login, .register, .forgotPassword, .settings, .audio, .document, .image, .video{
+    width: 100%;
+    color: #fefefe;
+    margin: 10% 0 0 0;
+}
+.forgotPassword p{
+    color: #fd961a;
+    text-align: center;
+}
+.userName, .password, .name{
+    width: 70%;
+    height: 60px;
+    color: #fefefe;
+    margin: 50px 0 20px 15%;
+    text-align: center;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #fefefe;
+    outline: none;
+    font-size: large;
+}
+.btn{
+    width: 20%;
+    height: 60px;
+    margin: 50px 0 50px 42%;
+    font-size: large;
+}
+.btn:hover{
+    color: #fefefe;
+    background: #fd961a;
+    border: 1px solid #fd961a;
+}
+.login a{
+    margin: 0 0 0 47%;
+    border-radius: 7px;
+}
+.profile{
+    width: 100%;
+    height: 300px;
+    color: #fefefe;
+    margin: 10% 0 0 0;
+    display: flex;
+}
+.user{
+    width: 20%;
+    padding: 30px 0 0 40px;
+}
+.profilePic{
+    width: 20%;
+    height: 220px;
+    background: url('./img/afunwa1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.upload{ .
+    width: 100%;
+    color: #fefefe;
+    margin: 15% 0 0 0;
+}
+/* select is used in upload.js*/
+.select{
+    width: 20%;
+    height: 30px;
+    margin: 10px 0 0 42%;
+}
+/* file and label are used in settings.js and the  label in upload.js*/
+.file, label{
+    margin: 0 0 0 44%;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .nav1{
+        width: 40%;
+        margin: 0 0 0 10px;
+        font-size: small;
+    }
+    .nav1 ul li{
+        margin: 40px 20px 0 0;
+    }
+    .nav2{
+        width: 60%;
+        font-size: small;
+        margin: 0 0 0 20%;
+    }
+    .span1, .span2{
+        width: 40%;
+        padding: 10px 0 0 5px;
+         margin: 30px 20px 0 0; 
+    }
+    .wrapper{
+        height: 350px;
+        margin: 9% 0 0 0;
+    }
+    .img{
+        height: auto;
+        flex-direction: column;
+        background: #282c34;
+    }
+    .img1, .img2, .img3{
+        width: 80%;
+        margin: 20px 0 0 10%;
+    }
+    .login, .register, .forgotPassword, .settings, .audio, .document, .image, .video{
+        margin: 20% 0 0 0;
+    }
+    .forgotPassword p{
+        color: #fd961a;
+       font-size: small;
+       padding: 10px 0 0 0;
+    }
+    .userName, .password, .name{
+        margin: 40px 0 0 15%;
+        font-size: small;
+    }
+    .btn{
+        width: 15%;
+        height: 45px;
+        font-size: small;
+         margin: 30px 0 20px 42%;
+    }
+   .login a{
+    font-size: small;
+    margin: 0 0 0 38%;
+   }
+   .profile{
+    height: 200px;
+    margin: 30% 0 0 0;
+   }
+   .user{
+    width: 40%;
+    font-size: small;
+    padding: 30px 0 0 10px;
+   }
+   .profilePic{
+    height: 100px;
+   }
+   .items{
+    font-size: small;
+   }
+   .upload{
+    margin: 30% 0 0 0;
+   }
+   .file, label{
+    margin: 0 0 0 33%;
+    font-size: small;
+    }
+    .select{
+     width: 30%;
+     margin: 10px 0 0 34%;
+    }
+    .footer{
+        margin: 20px 0 0 0;
+        background: #000000;
+        font-size: small;
+    }
+}
