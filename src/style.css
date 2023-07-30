@@ -215,7 +215,7 @@ a:hover{
     }
     .img1, .img2, .img3{
         width: 85%;
-        height: 400px;
+        height: 300px;
         margin: 20px 0 0 10%;
     }
     .login, .register, .forgotPassword, .settings, .audio, .document, .image, .video{
