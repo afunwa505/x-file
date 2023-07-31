@@ -190,13 +190,13 @@ a:hover{
 
 @media screen and (max-width: 480px) {
     .nav1{
+        display: none;
         width: 40%;
         margin: 0 0 0 10px;
         font-size: x-small;
         
     }
     .nav1 ul li{
-        display: none;
         margin: 40px 20px 0 0;
     }
     .nav2{
