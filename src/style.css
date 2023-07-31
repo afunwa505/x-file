@@ -193,6 +193,7 @@ a:hover{
         width: 40%;
         margin: 0 0 0 10px;
         font-size: x-small;
+        display: none;
     }
     .nav1 ul li{
         margin: 40px 20px 0 0;

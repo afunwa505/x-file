@@ -21,7 +21,8 @@ const About = () => {
         <p>
         Thank you for choosing X-File as your trusted file uploading partner. We look forward to being a reliable companion on your digital journey. If you have any questions or need assistance, our friendly support team is always ready to help
         Start uploading your files with ease today!</p>
-
+        <br />
+        
        </div>
         </>
     )

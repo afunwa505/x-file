@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import './style.css';
 import { Link} from 'react-router-dom';
 const Nav = () => {
+    const [cancel, setCancel] = useState(false);
     return(
+       
         <>
         <div className='nav'>
             <div className='nav1'>
@@ -17,7 +20,14 @@ const Nav = () => {
                     <Link to='/register' className='span2'><li >REGISTER</li></Link>
                 </ul>
             </div>
+            <i class="fa fa-bars"></i>
+
+            {
+                cancel && <i class="fa fa-times" aria-hidden="true"></i>
+            }
+
         </div>
+        
         </>
     )
 }
