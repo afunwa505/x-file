@@ -20,7 +20,7 @@ const Nav = () => {
                     <Link to='/register' className='span2'><li >REGISTER</li></Link>
                 </ul>
             </div>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars fa-2x"></i>
 
             {
                 cancel && <i class="fa fa-times" aria-hidden="true"></i>

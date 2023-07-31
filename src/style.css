@@ -189,6 +189,11 @@ a:hover{
 }
 
 @media screen and (max-width: 480px) {
+    .fa-bars{
+        position: absolute;
+        top: 40%;
+        left: 85%;
+    }
     .nav1{
         width: 40%;
         margin: 0 0 0 10px;
@@ -201,10 +206,10 @@ a:hover{
     .nav2{
         width: 60%;
         font-size: x-small;
-        margin: 0 0 0 10%;
+        margin: 0 0 0 5%;
     }
     .span1, .span2{
-        width: 40%;
+        width: 30%;
         padding: 10px 0 0 5px;
          margin: 30px 20px 0 0; 
     }
