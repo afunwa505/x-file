@@ -36,8 +36,8 @@ const Nav = () => {
             </div>
             <div className='nav2'>
                 <ul>
-                    <Link to='/login'  className='span1'><li>SIGN IN</li></Link>
-                    <Link to='/register' className='span2'><li >REGISTER</li></Link>
+                    <Link to='/login'  className='span1' onClick={Remove}><li>SIGN IN</li></Link>
+                    <Link to='/register' className='span2' onClick={Remove}><li >REGISTER</li></Link>
                 </ul>
             </div>
 
