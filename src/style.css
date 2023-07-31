@@ -193,6 +193,7 @@ a:hover{
         position: absolute;
         top: 40%;
         left: 85%;
+        cursor: pointer;
     }
     .nav1{
         width: 40%;
