@@ -1,8 +1,8 @@
-import { useState } from 'react';
+
 import './style.css';
 import { Link} from 'react-router-dom';
 const Nav = () => {
-    const [cancel, setCancel] = useState(false);
+  
     return(
        
         <>
@@ -22,9 +22,7 @@ const Nav = () => {
             </div>
             <i class="fa fa-bars fa-2x"></i>
 
-            {
-                cancel && <i class="fa fa-times" aria-hidden="true"></i>
-            }
+           
 
         </div>
         
